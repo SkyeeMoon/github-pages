@@ -1,75 +1,127 @@
-<header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capacitación en Ingeniería de Producción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #0056b3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background: #003d80;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        footer {
+            background: #003d80;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Capacitación en Ingeniería de Producción</h1>
+        <p>Formamos líderes en eficiencia, innovación y productividad</p>
+    </header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+    <nav>
+        <a href="#mision-vision">Misión y Visión</a>
+        <a href="#infraestructura">Infraestructura</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#temas">Temas</a>
+        <a href="#equipo">Equipo</a>
+    </nav>
 
-# GitHub Pages
+    <section id="mision-vision">
+        <div class="container">
+            <h2>Misión y Visión</h2>
+            <p><strong>Misión:</strong> Brindar capacitaciones especializadas en ingeniería de producción que impulsen la mejora continua, la sostenibilidad y la eficiencia operativa.</p>
+            <p><strong>Visión:</strong> Ser la empresa líder en formación técnica en ingeniería de producción, reconocida por transformar conocimientos en resultados concretos para empresas e individuos.</p>
+        </div>
+    </section>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+    <section id="infraestructura">
+        <div class="container">
+            <h2>Equipos Técnicos e Infraestructura</h2>
+            <ul>
+                <li>Simuladores de procesos industriales</li>
+                <li>Software de diseño y simulación (AutoCAD, Arena, SAP)</li>
+                <li>Equipos de medición y monitoreo de líneas de producción</li>
+                <li>Salas de capacitación con tecnología moderna</li>
+                <li>Laboratorios técnicos para prácticas en producción</li>
+            </ul>
+        </div>
+    </section>
 
-</header>
+    <section id="metodologia">
+        <div class="container">
+            <h2>Metodología</h2>
+            <p>Nuestros cursos se desarrollan con un enfoque práctico basado en proyectos reales. Integramos metodologías como Lean Manufacturing, simulaciones técnicas y aprendizaje colaborativo para garantizar resultados efectivos.</p>
+        </div>
+    </section>
 
-<!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
--->
+    <section id="temas">
+        <div class="container">
+            <h2>Temas Abordados</h2>
+            <ul>
+                <li>Gestión de la Producción y Operaciones</li>
+                <li>Lean Manufacturing y Kaizen</li>
+                <li>Control de Calidad y Seis Sigma</li>
+                <li>Automatización y Tecnología en la Producción</li>
+                <li>Gestión de Mantenimiento Industrial</li>
+            </ul>
+        </div>
+    </section>
 
-## Welcome
+    <section id="equipo">
+        <div class="container">
+            <h2>Equipo de Trabajo</h2>
+            <ul>
+                <li><strong>Coordinador de Programas:</strong> Diseña y supervisa las capacitaciones.</li>
+                <li><strong>Ingeniero Especialista:</strong> Imparte los cursos técnicos y asesora a los estudiantes.</li>
+                <li><strong>Técnico de Laboratorio:</strong> Apoya en las prácticas y manejo de equipos.</li>
+                <li><strong>Asesor Comercial:</strong> Gestiona las relaciones con clientes y empresas.</li>
+            </ul>
+        </div>
+    </section>
 
-With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.
+    <footer>
+        <p>&copy; 2025 Capacitación en Ingeniería de Producción. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
 
-- **Who is this for**: Beginners, students, project maintainers, small businesses.
-- **What you'll learn**: How to build a GitHub Pages site.
-- **What you'll build**: We'll build a simple GitHub Pages site with a blog. We'll use [Jekyll](https://jekyllrb.com), a static site generator.
-- **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
-- **How long**: This course takes less than one hour to complete.
-
-In this course, you will:
-
-1. Enable GitHub Pages
-2. Configure your site
-3. Customize your home page
-4. Create a blog post
-5. Merge your pull request
-
-### How to start this course
-
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
-  template_name: 'github-pages',
-  owner: '@me',
-  name: 'skills-github-pages',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
-
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=github-pages&owner=%40me&name=skills-github-pages&description=My+clone+repository&visibility=public)
-
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
